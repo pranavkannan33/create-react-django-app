@@ -28,11 +28,6 @@
 
 ## Getting Started
 
-Clone this repository to your local machine:
-
-```bash
-$ git clone https://github.com/kevinshen56714/create-react-django-app.git
-```
 
 ### To run the client
 
@@ -63,7 +58,8 @@ DB_PORT = 5432  # default postgreSQL port
 
 #### Poetry
 
-In addition to the database, you need to setup the Python environment. We use [poetry](https://python-poetry.org/docs/#installation) for dependency management, so poetry needs to be installed first. Once installed, in the project folder,
+In addition to the database, you need to setup the Python environment.
+We use [poetry](https://python-poetry.org/docs/#installation) for dependency management, so poetry needs to be installed first. Once installed, in the project folder,
 
 ```bash
 $ poetry shell  # this should create a virtualenv for you at .venv and start using it
